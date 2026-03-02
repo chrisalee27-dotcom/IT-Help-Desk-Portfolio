@@ -68,12 +68,13 @@ Excessive startup programs → high disk I/O during login → prolonged boot and
 <img width="500" height="400" alt="Disabled 2" src="https://github.com/user-attachments/assets/e27e5e38-d1de-43b9-b590-ef86a6173a79" />
 
 2. Ran Disk Cleanup (system files: temp files, thumbnails, etc.)
-3. Executed `sfc /scannow` in elevated Command Prompt
-4. Scheduled `chkdsk C: /f` for next reboot
-5. Rebooted
+
+<img width="782" height="595" alt="Disk Clean C Drive" src="https://github.com/user-attachments/assets/b6b3b3f9-a015-4961-b33e-9271f6f8b747" />
+
+4. Rebooted
 
 **Results**  
-- Boot time reduced to ~[insert your measured time, e.g., 48–55 seconds]
+- Boot time reduced to **30 seconds**
   
 <img width="500" height="400" alt="start timer under 30 seconds" src="https://github.com/user-attachments/assets/a9903720-27c0-42e6-99b6-a74eab50bf38" />
 
@@ -82,6 +83,12 @@ Excessive startup programs → high disk I/O during login → prolonged boot and
 <img width="500" height="400" alt="Disk Space optimized" src="https://github.com/user-attachments/assets/7e6f431f-4fea-4a7f-9733-86302c399914" />
 
 <img width="500" height="400" alt="Screenshot 2026-03-02 105000" src="https://github.com/user-attachments/assets/91c74a73-fba4-4c41-ab53-7325310a9c76" />
+
+| Metric                  | Before (Induced) | After Resolution |
+|-------------------------|------------------|------------------|
+| Boot Time               | 1 min 44 sec     | ~30 sec          |
+| Disk Active Time (peak) | 100%             | <10%             |
+| Startup Items Enabled   | 7+ added         | Disabled extras  |
 
 **Time to Resolve** (simulated): ~15–20 minutes  
 **Lessons Learned**  
