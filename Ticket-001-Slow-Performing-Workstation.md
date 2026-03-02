@@ -16,7 +16,7 @@ Aligned with CompTIA A+ Core 2 troubleshooting skills – created to demonstrate
 
 **Healthy State Examples**:
 - Disk free space: ~37 GB free / 59.4 GB total
--  
+
 <img width="500" height="400" alt="Free Space High 40+ Gig free" src="https://github.com/user-attachments/assets/415107ca-ed52-4ac8-b746-fd204894dc9d" />
 
 - Task Manager Performance (idle): low CPU/disk usage 
