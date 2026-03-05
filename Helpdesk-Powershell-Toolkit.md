@@ -17,7 +17,7 @@ A collection of practical PowerShell scripts designed for IT Help Desk / Desktop
 
 - **[NetworkTroubleshooter.ps1](./scripts/NetworkTroubleshooter.ps1)**
   Tests connectivity, DNS, common ports with friendly pass/fail output.
-    → [View / Download script](./scripts/NetworkTroubleshooter.ps1)
+    → [View / Download script](./scripts/NetworkTroubleShooter.ps1)
 
 ## How to Use
 1. Download or clone this repo.
