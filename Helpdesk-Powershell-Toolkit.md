@@ -7,15 +7,15 @@ A collection of practical PowerShell scripts designed for IT Help Desk / Desktop
 - Complements my other cybersecurity and help desk portfolio repos: [IT-Help-Desk-Portfolio](https://github.com/chrisalee27-dotcom/IT-Help-Desk-Portfolio), [Vulnerability-Management-Lab](https://github.com/chrisalee27-dotcom/Vulnerability-Management-Lab), etc.
 - Focus: Windows environments (common in enterprise support).
 
-- **[DiskCleanup.ps1](./scripts/DiskCleanup.ps1)**  
-  Safely clears temp files, recycle bin, update cache. Includes -WhatIf preview and -Confirm safety.  
+- **[DiskCleanup.ps1](./scripts/DiskCleanup.ps1)**
+  Safely clears temp files, recycle bin, update cache. Includes -WhatIf preview and -Confirm safety.
   → [View / Download script](./scripts/DiskCleanup.ps1)
 
 - **[SystemDiagnostics.ps1](./scripts/SystemDiagnostics.ps1)**
   Quick report: OS version, disk space, RAM/CPU, network config, uptime.
   → [View / Download script](./scripts/SystemDiagnostics.ps1)
 
-- **[NetworkTroubleshooter.ps1](./scripts/NetworkTroubleshooter.ps1)** 
+- **[NetworkTroubleshooter.ps1](./scripts/NetworkTroubleshooter.ps1)**
   Tests connectivity, DNS, common ports with friendly pass/fail output.
     → [View / Download script](./scripts/NetworkTroubleshooter.ps1)
 
