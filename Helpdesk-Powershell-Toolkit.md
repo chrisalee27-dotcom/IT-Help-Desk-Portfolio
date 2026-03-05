@@ -7,7 +7,7 @@ A collection of practical PowerShell scripts designed for IT Help Desk / Desktop
 - Complements my other cybersecurity and help desk portfolio repos: [IT-Help-Desk-Portfolio](https://github.com/chrisalee27-dotcom/IT-Help-Desk-Portfolio), [Vulnerability-Management-Lab](https://github.com/chrisalee27-dotcom/Vulnerability-Management-Lab), etc.
 - Focus: Windows environments (common in enterprise support).
 
-**[DiskCleanup.ps1](./scripts/DiskCleanup.ps1)**  
+- **[DiskCleanup.ps1](./scripts/DiskCleanup.ps1)**  
   Safely clears temp files, recycle bin, update cache. Includes -WhatIf preview and -Confirm safety.  
   → [View / Download script](./scripts/DiskCleanup.ps1)
 
