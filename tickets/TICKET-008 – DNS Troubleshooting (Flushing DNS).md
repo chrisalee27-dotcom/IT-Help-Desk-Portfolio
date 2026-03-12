@@ -26,7 +26,7 @@ A user reports they are unable to access a website from their workstation.
 
 Example issue:
 
-User cannot access `example.com`
+User cannot access `google.com`
 
 Possible causes include:
 
@@ -48,6 +48,7 @@ Command used:
 ```
 ping google.com
 ```
+<img width="636" height="346" alt="01_ping_google" src="https://github.com/user-attachments/assets/bf237740-6adf-44a0-b416-1d984a1d8dbc" />
 
 If replies are received, the system has internet connectivity and the issue is likely not related to the network connection itself.
 
@@ -65,6 +66,7 @@ Command used:
 ```
 nslookup google.com
 ```
+<img width="438" height="314" alt="02_ns_lookup" src="https://github.com/user-attachments/assets/3a776816-cc0f-4c92-8d58-6df839476c38" />
 
 This command queries the DNS server and returns the IP address associated with the domain.
 
@@ -82,6 +84,7 @@ Command used:
 ```
 ipconfig
 ```
+<img width="738" height="884" alt="03_ipconfig" src="https://github.com/user-attachments/assets/4d7f74d5-c3df-41b3-b562-73f9ebab2414" />
 
 Key information reviewed:
 
@@ -103,6 +106,7 @@ Command used:
 ```
 ipconfig /flushdns
 ```
+<img width="433" height="173" alt="04_flush_dns" src="https://github.com/user-attachments/assets/3a6986eb-71fd-4d8d-b0e3-aa951900eb72" />
 
 Output:
 
