@@ -63,7 +63,7 @@ Next, verify that the system can resolve the domain name into an IP address.
 Command used:
 
 ```
-nslookup example.com
+nslookup google.com
 ```
 
 This command queries the DNS server and returns the IP address associated with the domain.
@@ -121,7 +121,7 @@ After clearing the cache, DNS resolution was tested again.
 Command used:
 
 ```
-nslookup example.com
+nslookup google.com
 ```
 
 Result:  
@@ -136,7 +136,7 @@ Finally, connectivity to the website was verified.
 Command used:
 
 ```
-ping example.com
+ping google.com
 ```
 
 Result:  
